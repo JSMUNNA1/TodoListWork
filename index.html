@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link addBtn">Add</a></li>
+        <li class="nav-item show">Show</li>
+        <li class="nav-item">
+          <form class="search-form">
+            <input type="text" placeholder="Search..." class="search-input" />
+            <button type="submit" class="search-button">Search</button>
+          </form>
+        </li>
+      </ul>
+    </nav>
+    <section class="main">
+      <div class="Todo-box">
+        <h1>TODO LIST</h1>
+        <label for="Title">Title</label><br />
+        <input
+          type="text"
+          name="Title"
+          id="todo-input"
+          placeholder="title"
+          required
+        /><br />
+        <label for="content">Content</label><br />
+        <textarea name="content" id="content" class="" required></textarea
+        ><br />
+        <button class="submit" id="add-btn">Submit</button>
+      </div>
+    </section>
+    <ul id="todo-list"></ul>
+    <script src="script.js"></script>
+  </body>
+</html>

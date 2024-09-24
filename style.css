@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 8px 16px;
+  background-color: #444;
+  border-radius: 4px;
+}
+.show{
+  text-decoration: none;
+  color: white;
+  padding: 8px 16px;
+  background-color: #444;
+  border-radius: 4px;
+        cursor: pointer;
+}
+.show:hover {
+  background-color: #555;
+}
+
+.nav-link:hover {
+  background-color: #555;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+}
+
+.search-button {
+  padding: 6px 12px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #555;
+}
+/* Main */
+.main{
+      display: flex;
+       width: 100%;
+       height: 400px;
+       border: 2px solid black;
+       justify-content: center;
+       align-items: center;
+       background-color: rgb(14, 13, 91);
+       color: white;
+       
+}
+
+.Todo-box input{
+ 
+     width: 200px;
+     height: 30px;
+     border: none;
+    
+     border-radius: 3%;
+  
+      margin: 5px;
+}
+.Todo-box textarea{
+     width: 200px;
+     height: 60px;
+     border: none;
+     border-radius: 3%;
+     margin: 5px;
+    
+}
+.Todo-box button{
+  cursor: pointer;
+  color: white;
+  width: 200px;
+  height: 30px;
+  border: none;
+   margin: 5px;
+  border-radius: 3%;
+  background-color: rgb(140, 140, 5);
+
+}
+
+/* fuctionality of adding */
+
+button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+#todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  background: #f4f4f4;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.todo-item button {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.todo-item button.edit-btn {
+  background-color: #ffc107;
+  margin-right: 5px;
+}
+
+.todo-item button:hover {
+  opacity: 0.8;
+}
+
+td{
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color: coral;}
